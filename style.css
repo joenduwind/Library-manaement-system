@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.page_wrapper {
+    background: lightblue;
+    padding: 50px;
+}
+.wrapper{
+    border:2px solid rgb(17, 92, 117);
+    border-radius: 5%;
+    background: white;
+    padding: 10px;
+}
+.header{
+    display:flex;
+    padding: 10px 12px;
+    margin: 20px;
+    justify-content: space-between
+}
+.center input[type=search]{
+width: 200px;
+padding: 5px;
+border: 2px solid lightblue;
+border-radius:25px 0px 0px 25px;
+outline: none;
+}
+.center button{
+    margin: -5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: lightblue;
+    border-radius:0px 25px 25px 0px;
+    border: 2px solid lightblue;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: lightblue;
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 22px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.active{
+    color: rgb(23, 109, 138);
+    background: white;
+    border-radius: 40px;
+}
+
+li a:hover{
+    background-color:white;
+    color: lightblue;
+    border-radius: 40px;
+}
+.row{
+    content: '';
+    clear: both;
+    display: table;
+}
+.column{
+    width:50%;
+    float: left;
+}
+.text{
+ padding-left:100px;
+ padding-top: 100px;
+}
+.text h1{
+    font-size: 45px;
+}
+.text p{
+    width: 400px;
+}
+.btn{
+    background-color: lightblue;
+    color:white;
+    font-size: 14px;
+    padding:  8px 16px;
+    border-radius: 20px;
+    width: 150px;
+    border:1px solid lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    background-color: black;
+}
+.card{
+    display:inline-block;
+    margin-left: 60px;
+    padding: 10px;
+
+    background-color: white;
+    border-radius: 3px;
+}
+.container{
+    position: relative;
+    background-color:lightblue ;
+    margin: 30px;
+    padding: 30px 0px;
+    border-radius: 0px 0px 30px 30px ;
+}
+.container h3{
+display: inline-block;
+background: white;
+padding: 8px 16px;
+position: absolute;
+left: 500px;
+top: -40px;
+border: 1px solid whitesmoke;
+}
+.container h4{
+    color:rgb(24, 102, 128);
+}
+
+
